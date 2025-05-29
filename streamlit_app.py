@@ -6,6 +6,8 @@ import requests
 smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
 st.text(smoothiefroot_response.json())
 
+import pandas as pd
+
 # Write directly to the app
 st.title(f"Customomize Your Smoothie! :cup_with_straw: ")
 st.write(
